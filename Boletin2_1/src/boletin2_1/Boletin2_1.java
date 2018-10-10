@@ -10,7 +10,7 @@ public class Boletin2_1 {
        float prezoTotal = ler.nextFloat();
        System.out.println("introduce el precio pagado por el producto : ");
        float prezoPagado = ler.nextFloat();
-       System.out.println("El porcentaje descuentado del precio del producto es:" + prezoPagado/prezoTotal*100 + "%");
+       System.out.println("El porcentaje descuentado del precio del producto es:" + (100 - prezoPagado/prezoTotal*100) + "%");
     }
     
 }
